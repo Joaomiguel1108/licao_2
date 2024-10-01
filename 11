@@ -1,0 +1,12 @@
+eleitores = int(input("quantos eleitores tem na sua cidade?"))
+votos_brancos = int(input("quantos votos brancos tiveram?"))
+nulos = int(input("quantos votos nulos tiveram?"))
+válidos = int(input("quantos votos válidos tiveram?"))
+
+resultado1 = (votos_brancos/eleitores) *100
+resultado2 = (nulos / eleitores) * 100
+resultado3 = (válidos / eleitores) * 100
+
+print(f"Percentual de votos brancos: {resultado1}%")
+print(f"Percentual de votos nulos: {resultado2}%")
+print(f"Percentual de votos válidos: {resultado3}%")
