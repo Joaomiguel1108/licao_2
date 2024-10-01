@@ -1,0 +1,6 @@
+raio = float(input("digite o valor do raio"))
+altura = float(input("digite o altura"))
+
+volume = altura*raio
+
+print(volume)
