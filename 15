@@ -1,0 +1,7 @@
+r1 = float(input("digite o valor da primeira resistência"))
+r2 = float(input("digite o valor da segunda resistência"))
+r3 = float(input("digite o valor da terceira resistência"))
+
+R = r1+r2+r3
+
+print(R)
