@@ -1,0 +1,8 @@
+altura = float(input("digite a altura"))
+largura = float(input("digite a largura"))
+profundidade = float(input("digite a profundidade"))
+
+
+volume = altura*largura*profundidade
+
+print(f"o volume dessa caixa d’água é {volume}")
