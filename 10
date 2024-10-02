@@ -1,0 +1,13 @@
+hora = float(input("quanto você ganha por hora trabalhada"))
+horas_mes = float(input("quantas horas você trabalhou?"))
+
+salario = hora*horas_mes
+
+desconto1 = (salario/100)*11
+desconto2 = (salario/100)*8 
+desconto3 = (salario/100)*5
+Desconto_total = salario - desconto1 - desconto2 - desconto3
+print(f"Desconto: {desconto1}")
+print(f"Imposto de renda: {desconto2}")
+print(f"INSS: {desconto3}")
+print(f"salario:{Desconto_total}")
