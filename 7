@@ -1,0 +1,10 @@
+hora_aula = float(input("Qual o valor da hora da aula?"))
+aulas = int(input("quantas aulas foram selecionadas no mês?"))
+
+salario = hora_aula*aulas
+
+INSS = (salario/100)*5
+
+salario_total = salario + INSS
+
+print(salario_total)
